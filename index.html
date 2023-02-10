@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+</head>
+<body class="h-screen flex justify-center items-center flex-col bg-white" style="font-family: Jost;">
+    <nav class="fixed top-0 left-0 z-20 w-full py-2.5 px-6 bg-white">
+        <div class="container mx-auto flex max-w-6xl flex-wrap items-center justify-between">
+            <div class="flex items-end align-middle">
+                <a href="/" class="hover:transform hover:scale-110 duration-300">
+                    <span class="self-center whitespace-nowrap text-2xl font-semibold text-gray-800 hover:text-emerald-600" style="font-family: Pacifico;">
+                        MH
+                    </span>
+                </a>
+            </div>
+            <div class="w-auto items-center justify-between order-1 flex">
+                <ul class="mt-0 flex rounded-lg p-4 flex-row space-x-8 text-sm">
+                    <li>
+                        <a href="/" class="text-emerald-600 duration-300">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Linguagens" class="text-gray-800 hover:text-emerald-600 duration-300">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#Projetos" class="text-gray-800 hover:text-emerald-600 duration-300">Projetos</a>
+                    </li>
+                    <li>
+                        <button><img src="img/darktheme.png" class="w-5"></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="h-3/4 mt-40">
+        <div class="h-full flex flex-col justify-between">
+            <div class="px-6 flex items-center justify-center space-x-8">
+                <img src="magicpattern-blob-1675906194672.png" class="w-72 hover:transform hover:scale-110 duration-300" >
+                
+                <div class="flex flex-col w-1/2 justify-center ">
+                    <div>
+                        <h1 class="text-3xl font-bold leading-tight text-gray-800" style="font-family: Pacifico;">Olá, eu sou o <span class="text-emerald-600">Mateus</span></h1>
+                        <p class="text-xl text-gray-700 font-light leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio hic numquam facilis veritatis voluptates commodi ipsam at eaque quis.</p>
+                    </div>
+                    <div class="mt-8">
+                        <button class="text-xl bg-gray-700 hover:bg-rose-800 text-white rounded-full py-2 px-4 shadow-lg">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-10 flex items-end justify-center animate-bounce">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2c1.103 0 2 .897 2 2v12c0 3.309-2.691 6-6 6s-6-2.691-6-6v-12c0-1.103.897-2 2-2h8zm4 2c0-2.209-1.791-4-4-4h-8c-2.209 0-4 1.791-4 4v12c0 4.418 3.582 8 8 8s8-3.582 8-8v-12zm-7 1c0-.552-.447-1-1-1s-1 .448-1 1v4c0 .552.447 1 1 1s1-.448 1-1v-4z"/></svg>
+                </div>
+                <div>
+                    <p class="cursor-default">Rolar para baixo</p>
+                </div>
+            </div>
+        </div>
+        <div class="h-screen bg-slate-100 flex justify-evenly items-center flex-col" id="Linguagens">
+            <div class="w-2/3 space-y-4">
+                <h1 class="text-3xl text-gray-800" style="font-family: Pacifico;"><span class="text-emerald-600">Linguagens</span> e <span class="text-rose-700">ferramentas</span></h1>
+                <p class="text-xl text-gray-700 font-light leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cumque quasi tempora possimus, iure sunt iste fugit suscipit atque vitae ex voluptatem maxime odio libero eos id temporibus! Rem, voluptatum.</p>
+            </div>
+            <div>
+                <ul class="flex space-x-4">
+                    <li><img src="img/c++.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/c.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/css.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/docker.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/git.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/html.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/python.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/javascript.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/node.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/postgree.png" class="hover:transform hover:scale-110 duration-300"></li>
+                    <li><img src="img/tailwind.png" class="hover:transform hover:scale-110 duration-300"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="h-screen bg-white flex justify-evenly items-center flex-col pt-16" id="Projetos">
+            <div class="w-2/3 space-y-2">
+                <h1 class="text-3xl text-emerald-600" style="font-family: Pacifico;">Projetos<h1>
+                <p class="text-xl text-gray-700 font-light leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cumque quasi tempora possimus, iure sunt iste fugit suscipit atque vitae ex voluptatem maxime odio libero eos id temporibus! Rem, voluptatum.</p>
+            </div>
+            <div class="space-y-3 w-1/2">
+                <div class="space-x-10 flex">
+                    <a href="https://github.com/mateus-hamade/Jokenpo" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mateus-hamade&repo=Jokenpo" class="shadow-lg hover:transform hover:scale-110 duration-300"/>
+                    </a>
+                    <a href="https://github.com/mateus-hamade/WebScraping-python" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mateus-hamade&repo=WebScraping-python" class="shadow-lg hover:transform hover:scale-110 duration-300"/>
+                    </a>
+                </div>
+                <div class="space-x-10 flex">
+                    <a href="https://github.com/mateus-hamade/ToDo-Django" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mateus-hamade&repo=ToDo-Django" class="shadow-lg hover:transform hover:scale-110 duration-300"/>
+                    </a>
+                    <a href="https://github.com/mateus-hamade/PromoGames" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mateus-hamade&repo=PromoGames" class="shadow-lg hover:transform hover:scale-110 duration-300"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <img src="wave.png" alt="">
+        </div>
+    </main>
+</body>
+</html>
