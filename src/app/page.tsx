@@ -1,6 +1,6 @@
 import { ArrowUpRight, Box, Database } from "lucide-react"
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className="gap-4 bg-gray-950 text-gray-400 p-10">
       <div className="flex justify-between flex-col">
@@ -278,4 +278,3 @@ export const Home = () => {
 }
 
 export default Home
-
